@@ -2,6 +2,10 @@
  
 ##Learning Competencies 
 
+* Design database schema from problem data
+* Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
+
+
 ##Summary 
 
  One-to-one relationships are easy to understand, but it's hard to see when to use one.  We recommend that you solve the one-to-many challenge first, before moving into
@@ -34,22 +38,17 @@ This is true of any one-to-one relationship, which is why it's hard to see when 
 The rule of thumb is this: if you have a logical grouping of fields which can all optionally be <code>NULL</code>,
 it's a good idea to split those fields out into a separate table in a one-to-one relationship.
 
-<!--
-**Resource:** Here's a [video](http://shereef.wistia.com/medias/fd684c61cb) of Jesse going over Schema Design on July 3, 2012.  **Spoiler Alert:** this will show you the schemas for some of the challenges!
--->
 
-## Objectives
+##Releases
 
-### Design the schema
+###Release 0 : Design the schema
 
 Model the relationship between the <code>users</code> and <code>facebook&#95;accounts</code>.
 
-Use [SQL Designer](/sql.html) to create your schema.  When you are done, save the XML of your schema and copy it into the gist. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your gist (before your XML code). 
+Use [SQL Designer][] to create your schema.  When you are done, save the XML of your schema and copy it into the source file `one_to_one_schema.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your file (before your XML code). 
  
-
-##Releases
-###Release 0 
-
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+* [SQL Designer](https://socrates.devbootcamp.com/sql.html)
