@@ -45,9 +45,7 @@ it's a good idea to split those fields out into a separate table in a one-to-one
 
 Model the relationship between the <code>users</code> and <code>facebook&#95;accounts</code>.
 
-Use [SQL Designer][] to create your schema.  When you are done, save the XML of your schema and copy it into the source file `one_to_one_schema.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your file (before your XML code). 
- 
-<!-- ##Optimize Your Learning  -->
+When you are done, take a screenshot of your schema, commit it, and issue a pull request.
 
 ##Resources
 
