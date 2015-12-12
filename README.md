@@ -43,10 +43,10 @@ it's a good idea to split those fields out into a separate table in a one-to-one
 
 ###Release 0 : Design the schema
 
-Use [SQL Designer](https://socrates.devbootcamp.com/sql.html) to create your schema.  Model the relationship between the <code>users</code> and <code>facebook&#95;accounts</code>.
+Use [SQL Designer](https://schemadesigner.devbootcamp.com/) to create your schema.  Model the relationship between the <code>users</code> and <code>facebook&#95;accounts</code>.
 
 When you are done, take a screenshot of your schema, commit it, and issue a pull request.
 
 ##Resources
 
-* [SQL Designer](https://socrates.devbootcamp.com/sql.html)
+* [SQL Designer](https://schemadesigner.devbootcamp.com/)
